@@ -5,12 +5,14 @@ gem 'bootstrap-sass', '2.0.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails', '2.9.0'
+  gem 'rspec-rails', '2.10.0'
   gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
   gem 'guard-rspec'
   gem 'guard-livereload'
 
 end
+
+gem 'annotate', '~> 2.4.1.beta', group: :development
 
 # Gems used only for assets and not required
 # in production environments by default.
